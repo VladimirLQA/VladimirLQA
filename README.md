@@ -4,8 +4,6 @@
 
 - 📫 How to reach me **lazurenko.vladimir.v@gmail.com**
 
-- 📄 Know about my experiences [https://bit.ly/3CkKKHO](https://bit.ly/3CkKKHO)
-
 - ⚡ Fun fact **when you sleep, you sleep :)**
 
 <h3 align="left">Connect with me:</h3>
