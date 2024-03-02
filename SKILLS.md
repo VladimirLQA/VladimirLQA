@@ -34,25 +34,25 @@
 
 ## QA Theory
 
-| Test design                      | Software Development Models | Development/testing approaches | Project management methods |
-|----------------------------------|-----------------------------|--------------------------------|-------------------------------|
-| 🟩 Equivalence Partitioning (D) | 🟩 Waterfall model          | 🟩     | 🟩 Scrum              |
-| 🟩 Boundary Value Analysis (D)  | 🟩 V-model                  | 🟩     | 🟩 Kanban             |
-| 🟩 All Combinations (D)         | 🟩 Incremental Model        | 🟩     | 🟩 Lean               |
-| 🟩 Pairwise Testing (D)         | 🟩 Iterative Model          |      |               |
-| 🟩 Each Choice Testing (D)      | 🟩 Spiral model             |      |               |
-| 🟩 Base Choice Testing (D)      | 🟩 Agile model              |      |               |
-| 🟩 Decision Table Testing (D)   | 🟩 Chaos model              |      |               |
-| 🟩 Cause-Effect Graphing (D)    |                           |      |               |
-| 🟩 State Transition Testing (D) |          |      |               |
-| 🟩 Use case testing (D)         |          |     |               |
-| 🟩 Domain testing (D)           |          |      |               |
-| 🟩 Informal review (S - R)      |          |      |               |
-| 🟩 Walkthrough (S - R)          |          |      |               |
-| 🟩 Peer Reviews (S - R)         |          |      |               |
-| 🟩 Technical Review (S - R)     |          |      |               |
-| 🟩 Inspection (S - R)           |          |      |               |
-| 🟩 Domain testing (S - R)       |          |      |               |
+| Test design                       | Software Development Models | Development/testing approaches | Project management methods |
+|---------------------------------- |-----------------------------|--------------------------------|-------------------------------|
+| 🟩 Equivalence Partitioning (D)  | 🟩 Waterfall model          | 🟩     | 🟩 Scrum              |
+| 🟩 Boundary Value Analysis (D)   | 🟩 V-model                  | 🟩     | 🟩 Kanban             |
+| 🟩 All Combinations (D)          | 🟩 Incremental Model        | 🟩     | 🟩 Lean               |
+| 🟩 Pairwise Testing (D)          | 🟩 Iterative Model          |      |               |
+| 🟩 Each Choice Testing (D)       | 🟩 Spiral model             |      |               |
+| 🟩 Base Choice Testing (D)       | 🟩 Agile model              |      |               |
+| 🟩 Decision Table Testing (D)    | 🟩 Chaos model              |      |               |
+| 🟩 Cause-Effect Graphing (D)     |                           |      |               |
+| 🟩 State Transition Testing (D)  |          |      |               |
+| 🟩 Use case testing (D)          |          |     |               |
+| 🟩 Domain testing (D)            |          |      |               |
+| 🟩 Informal review (S - R)       |          |      |               |
+| 🟩 Walkthrough (S - R)           |          |      |               |
+| 🟩 Peer Reviews (S - R)          |          |      |               |
+| 🟩 Technical Review (S - R)      |          |      |               |
+| 🟩 Inspection (S - R)            |          |      |               |
+| 🟩 Domain testing (S - R)        |          |      |               |
 
 | Test Deliverables/Test artifacts |  |  |  |
 |----------------------------------|-----------------------------|--------------------------------|-------------------------------|
