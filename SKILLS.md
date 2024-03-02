@@ -26,83 +26,57 @@
 | 🟨 generator         | 🟩 switch             | ⬜ compose            | ⬜️ Symbol           | 🟦 linter            |
 | 🟨 async function    | 🟨 new Error          | ⬜️ memoize            | 🟨 string parsing   | ⬜️ prettier          |
 | 🟨 call, bind, apply |                       | 🟦 factory            | 🟨 timers           | 🟦 unittest          |
-| 🟨 Array             |                       | 🟦 pool               | 🟨 EventEmitter     | 🟩 git               |
+| 🟨 Array             |                       | 🟦 pool               | 🟨 null             | 🟩 git               |
 | 🟩 instanceof        |                       | 🟦 wrapper            | 🟨 RegExp           | 🟦 github            |
 | 🟩 ...spread         |                       | 🟩 default parameters | 🟨 global           | 🟨 node.js           |
 | 🟩 ...rest           |                       |                       | 🟨 undefined        | 🟨 npm               |
-| 🟩 typeof            |                       |                       | 🟦 null             |                      |
+| 🟩 typeof            |                       |                       |              |                      |
 
 ## QA Theory
 
-| Test design             | Software Development Models  | Development/testing approaches | Project management practices |
-|------------------------|------------------------------|--------------------------------|-------------------------------|
-| 🟦 Procedural programming      | 🟦 constructor        | ⬜ struct, record    | 🟦 Singleton             |
-| 🟦 Imperative programming      | 🟦 new                | ⬜ Mutable state     |                          |
-| 🟦 Structured programming      | 🟦 Static method      | ⬜ Immutable state   |                          |
-| 🟦 Non-structured programming  | 🟦 Method             | ⬜ Enum              |                          |
-| 🟦 Functional programming      | 🟦 Async method       | 🟦 Linked list       |                          |
-| 🟦 Prototype-based programming | 🟦 Getters, Setters   | 🟦 Doubly list       |                          |
-| 🟦 Object-oriented programming | 🟦 Public fields      | 🟦 Unrolled list     |                          |
-| ⬜ Object-based programming    | 🟦 Private fields     | 🟦 Circular list     |                          |
-| 🟦 Generic programming         | 🟦 Field declarations | 🟦 Trees             |                          |
-| 🟦 Concurrent computing        | 🟦 Inheritance        | 🟦 Graphs            |                          |
-| 🟦 Asyncronous programming     | 🟦 Parent class       | 🟦 Functor           |                          |
-| 🟦 Parallel programming        | 🟦 Polymorphism       | 🟦 Functional object |                          |
-| 🟦 Reactive programming        | 🟦 Abstract class     | ⬜ Monad             |                          |
-| ⬜ FRP (Functional-reactive)   | 🟦 Interface          | 🟦 Generator         |                          |
-| 🟦 Automata-based programming  | 🟦 Encapsulation      | 🟦 Iterator          |                          |
-| 🟦 Domain-specific languages   | ⬜ Hidden class       | 🟦 Async Iterator    |                          |
-| 🟦 Multi-paradigm programming  | ⬜ Object form        |                      |                          |
-| ⬜ Metaprogramming             | 🟦 instance           |                      |                          |
-| ⬜ Actor model                 | ⬜ Introspection      |                      |                          |
-|                                | ⬜ Reflection         |                      |                          |
+| Test design                      | Software Development Models | Development/testing approaches | Project management methods |
+|----------------------------------|-----------------------------|--------------------------------|-------------------------------|
+| 🟩 Equivalence Partitioning (D) | 🟩 Waterfall model          | 🟩     | 🟩 Scrum              |
+| 🟩 Boundary Value Analysis (D)  | 🟩 V-model                  | 🟩     | 🟩 Kanban             |
+| 🟩 All Combinations (D)         | 🟩 Incremental Model        | 🟩     | 🟩 Lean               |
+| 🟩 Pairwise Testing (D)         | 🟩 Iterative Model          |      |               |
+| 🟩 Each Choice Testing (D)      | 🟩 Spiral model             |      |               |
+| 🟩 Base Choice Testing (D)      | 🟩 Agile model              |      |               |
+| 🟩 Decision Table Testing (D)   | 🟩 Chaos model              |      |               |
+| 🟩 Cause-Effect Graphing (D)    |                           |      |               |
+| 🟩 State Transition Testing (D) |          |      |               |
+| 🟩 Use case testing (D)         |          |     |               |
+| 🟩 Domain testing (D)           |          |      |               |
+| 🟩 Informal review (S - R)      |          |      |               |
+| 🟩 Walkthrough (S - R)          |          |      |               |
+| 🟩 Peer Reviews (S - R)         |          |      |               |
+| 🟩 Technical Review (S - R)     |          |      |               |
+| 🟩 Inspection (S - R)           |          |      |               |
+| 🟩 Domain testing (S - R)       |          |      |               |
+
+| Test Deliverables/Test artifacts |  |  |  |
+|----------------------------------|-----------------------------|--------------------------------|-------------------------------|
+| 🟩 Requirements                    | 🟩         | 🟩     | 🟩              |
+| 🟩 Bug report                      | 🟩         | 🟩     | 🟩              |
+| 🟩 Test case                       | 🟩         | 🟩     | 🟩              |
+| 🟩 Check list                      | 🟩         | 🟩     | 🟩              |
+| 🟩 Test case                       | 🟩         | 🟩     | 🟩              |
+| 🟩 Test policy                     | 🟩         | 🟩     | 🟩              |
+| 🟩 Test strategy                   | 🟩         | 🟩     | 🟩              |
+| 🟩 Test plan                       | 🟩         | 🟩     | 🟩              |
+| 🟩 Test basis                      | 🟩         | 🟩     | 🟩              |
+| 🟩 Requirement Traceability Matrix | 🟩         | 🟩     | 🟩              |
+| 🟩 Test Metrics                    | 🟩         | 🟩     | 🟩              |
+
+| General           |  |  |  |
+|----------------------------------|-----------------------------|--------------------------------|-------------------------------|
+| 🟩 Error, defect, failure       |          |      |               |
+| 🟩 Domain testing (S - R)       |          |      |               |
+| 🟩 Domain testing (S - R)       |          |      |               |
+
 
 ## TypeScript
 
-| Theory                         | OOP basics            | Abstractions         | Patterns                 |
+|                        |            |          |                  |
 |--------------------------------|-----------------------|----------------------|--------------------------|
-| 🟦 Procedural programming      | 🟦 constructor        | ⬜ struct, record    | 🟦 Singleton             |
-| 🟦 Imperative programming      | 🟦 new                | ⬜ Mutable state     |                          |
-| 🟦 Structured programming      | 🟦 Static method      | ⬜ Immutable state   |                          |
-| 🟦 Non-structured programming  | 🟦 Method             | ⬜ Enum              |                          |
-| 🟦 Functional programming      | 🟦 Async method       | 🟦 Linked list       |                          |
-| 🟦 Prototype-based programming | 🟦 Getters, Setters   | 🟦 Doubly list       |                          |
-| 🟦 Object-oriented programming | 🟦 Public fields      | 🟦 Unrolled list     |                          |
-| ⬜ Object-based programming    | 🟦 Private fields     | 🟦 Circular list     |                          |
-| 🟦 Generic programming         | 🟦 Field declarations | 🟦 Trees             |                          |
-| 🟦 Concurrent computing        | 🟦 Inheritance        | 🟦 Graphs            |                          |
-| 🟦 Asyncronous programming     | 🟦 Parent class       | 🟦 Functor           |                          |
-| 🟦 Parallel programming        | 🟦 Polymorphism       | 🟦 Functional object |                          |
-| 🟦 Reactive programming        | 🟦 Abstract class     | ⬜ Monad             |                          |
-| ⬜ FRP (Functional-reactive)   | 🟦 Interface          | 🟦 Generator         |                          |
-| 🟦 Automata-based programming  | 🟦 Encapsulation      | 🟦 Iterator          |                          |
-| 🟦 Domain-specific languages   | ⬜ Hidden class       | 🟦 Async Iterator    |                          |
-| 🟦 Multi-paradigm programming  | ⬜ Object form        |                      |                          |
-| ⬜ Metaprogramming             | 🟦 instance           |                      |                          |
-| ⬜ Actor model                 | ⬜ Introspection      |                      |                          |
-|                                | ⬜ Reflection         |                      |                          |
 
-## Multi-paradigm programming
-
-| Theory                         | OOP basics            | Abstractions         | Patterns                 |
-|--------------------------------|-----------------------|----------------------|--------------------------|
-| 🟦 Procedural programming      | 🟦 constructor        | ⬜ struct, record    | 🟦 Singleton             |
-| 🟦 Imperative programming      | 🟦 new                | ⬜ Mutable state     |                          |
-| 🟦 Structured programming      | 🟦 Static method      | ⬜ Immutable state   |                          |
-| 🟦 Non-structured programming  | 🟦 Method             | ⬜ Enum              |                          |
-| 🟦 Functional programming      | 🟦 Async method       | 🟦 Linked list       |                          |
-| 🟦 Prototype-based programming | 🟦 Getters, Setters   | 🟦 Doubly list       |                          |
-| 🟦 Object-oriented programming | 🟦 Public fields      | 🟦 Unrolled list     |                          |
-| ⬜ Object-based programming    | 🟦 Private fields     | 🟦 Circular list     |                          |
-| 🟦 Generic programming         | 🟦 Field declarations | 🟦 Trees             |                          |
-| 🟦 Concurrent computing        | 🟦 Inheritance        | 🟦 Graphs            |                          |
-| 🟦 Asyncronous programming     | 🟦 Parent class       | 🟦 Functor           |                          |
-| 🟦 Parallel programming        | 🟦 Polymorphism       | 🟦 Functional object |                          |
-| 🟦 Reactive programming        | 🟦 Abstract class     | ⬜ Monad             |                          |
-| ⬜ FRP (Functional-reactive)   | 🟦 Interface          | 🟦 Generator         |                          |
-| 🟦 Automata-based programming  | 🟦 Encapsulation      | 🟦 Iterator          |                          |
-| 🟦 Domain-specific languages   | ⬜ Hidden class       | 🟦 Async Iterator    |                          |
-| 🟦 Multi-paradigm programming  | ⬜ Object form        |                      |                          |
-| ⬜ Metaprogramming             | 🟦 instance           |                      |                          |
-| ⬜ Actor model                 | ⬜ Introspection      |                      |                          |
-|                                | ⬜ Reflection         |                      |                          |
