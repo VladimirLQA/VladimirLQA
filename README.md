@@ -1,15 +1,14 @@
 <h1 align="center">Hi 👋, I'm Volodymyr Lazurenko</h1>
-<h3 align="center">QA engineer</h3>
+<h3 align="center">AQA/QA engineer</h3>
 <img align="right" alt="Coding" width="400" src="https://t4.ftcdn.net/jpg/03/13/40/45/360_F_313404541_e9YZ3pht6oEEkMXuhxTboqXA2B2ShNnC.jpg">
 
 - 📫 How to reach me **lazurenko.vladimir.v@gmail.com**
-
-- ⚡ Fun fact **when you sleep, you sleep :)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/vladimir lazurenko" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="vladimir lazurenko" height="30" width="40" /></a>
 </p>
+
 
 <code>💡 [Skills](SKILLS.md)</code>
 
