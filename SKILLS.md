@@ -1,8 +1,53 @@
-# Personal profile of software engineering skills
+# Personal profile of skills
 
 ⬜ Optional, 🟦 Required for all, 🟨 Required for js, 🟩 Learned, 🟥 Declined
 
-## Fundamental concepts
+## QA Theory
+
+| Test design                       | Software Development Models | Development/testing approaches | Project management methods |
+|---------------------------------- |-----------------------------|--------------------------------|-------------------------------|
+| 🟩 Equivalence Partitioning (D)  | 🟩 Waterfall model          | 🟩     | 🟩 Scrum              |
+| 🟩 Boundary Value Analysis (D)   | 🟩 V-model                  | 🟩     | 🟩 Kanban             |
+| 🟩 All Combinations (D)          | 🟩 Incremental Model        | 🟩     | 🟩 Lean               |
+| 🟩 Pairwise Testing (D)          | 🟩 Iterative Model          |      |               |
+| 🟩 Each Choice Testing (D)       | 🟩 Spiral model             |      |               |
+| 🟩 Base Choice Testing (D)       | 🟩 Agile model              |      |               |
+| 🟩 Decision Table Testing (D)    | 🟩 Chaos model              |      |               |
+| 🟩 Cause-Effect Graphing (D)     |                           |      |               |
+| 🟩 State Transition Testing (D)  |          |      |               |
+| 🟩 Use case testing (D)          |          |     |               |
+| 🟩 Domain testing (D)            |          |      |               |
+| 🟩 Informal review (S - R)       |          |      |               |
+| 🟩 Walkthrough (S - R)           |          |      |               |
+| 🟩 Peer Reviews (S - R)          |          |      |               |
+| 🟩 Technical Review (S - R)      |          |      |               |
+| 🟩 Inspection (S - R)            |          |      |               |
+| 🟩 Domain testing (S - R)        |          |      |               |
+
+| Test Deliverables/Test artifacts     | Tools           | 
+|-------------------------------------|------------------|
+| 🟩 Requirements                    | 🟩 Postman       |
+| 🟩 Bug report                      | 🟩 Jira          |
+| 🟩 Test case                       | 🟩 Youtrack      |
+| 🟩 Check list                      | 🟩 TestCaseLab   |
+| 🟩 Test case                       | 🟩 DevTools      | 
+| 🟩 Test policy                     | 
+| 🟩 Test strategy                   | 
+| 🟩 Test plan                       | 
+| 🟩 Test basis                      | 
+| 🟩 Requirement Traceability Matrix | 
+| 🟩 Test Metrics                    | 
+
+| General                            |
+|------------------------------------|
+| 🟩 Error, defect, failure         | 
+| 🟩 Validation                     |         
+| 🟩 QA/QC/Testing                  |
+| 🟩 Software Quality               |
+| 🟩 Principles of Software Testing |
+
+## AQA
+### Fundamental concepts JavaScript
 
 | Syntax               | Statements            | Functions             | Data structures     | Process & style      |
 |----------------------|-----------------------|-----------------------|---------------------|----------------------|
@@ -31,48 +76,6 @@
 | 🟩 ...spread         |                       | 🟩 default parameters | 🟨 global           | 🟨 node.js           |
 | 🟩 ...rest           |                       |                       | 🟨 undefined        | 🟨 npm               |
 | 🟩 typeof            |                       |                       |              |                      |
-
-## QA Theory
-
-| Test design                       | Software Development Models | Development/testing approaches | Project management methods |
-|---------------------------------- |-----------------------------|--------------------------------|-------------------------------|
-| 🟩 Equivalence Partitioning (D)  | 🟩 Waterfall model          | 🟩     | 🟩 Scrum              |
-| 🟩 Boundary Value Analysis (D)   | 🟩 V-model                  | 🟩     | 🟩 Kanban             |
-| 🟩 All Combinations (D)          | 🟩 Incremental Model        | 🟩     | 🟩 Lean               |
-| 🟩 Pairwise Testing (D)          | 🟩 Iterative Model          |      |               |
-| 🟩 Each Choice Testing (D)       | 🟩 Spiral model             |      |               |
-| 🟩 Base Choice Testing (D)       | 🟩 Agile model              |      |               |
-| 🟩 Decision Table Testing (D)    | 🟩 Chaos model              |      |               |
-| 🟩 Cause-Effect Graphing (D)     |                           |      |               |
-| 🟩 State Transition Testing (D)  |          |      |               |
-| 🟩 Use case testing (D)          |          |     |               |
-| 🟩 Domain testing (D)            |          |      |               |
-| 🟩 Informal review (S - R)       |          |      |               |
-| 🟩 Walkthrough (S - R)           |          |      |               |
-| 🟩 Peer Reviews (S - R)          |          |      |               |
-| 🟩 Technical Review (S - R)      |          |      |               |
-| 🟩 Inspection (S - R)            |          |      |               |
-| 🟩 Domain testing (S - R)        |          |      |               |
-
-| Test Deliverables/Test artifacts |  |  |  |
-|----------------------------------|-----------------------------|--------------------------------|-------------------------------|
-| 🟩 Requirements                    | 🟩         | 🟩     | 🟩              |
-| 🟩 Bug report                      | 🟩         | 🟩     | 🟩              |
-| 🟩 Test case                       | 🟩         | 🟩     | 🟩              |
-| 🟩 Check list                      | 🟩         | 🟩     | 🟩              |
-| 🟩 Test case                       | 🟩         | 🟩     | 🟩              |
-| 🟩 Test policy                     | 🟩         | 🟩     | 🟩              |
-| 🟩 Test strategy                   | 🟩         | 🟩     | 🟩              |
-| 🟩 Test plan                       | 🟩         | 🟩     | 🟩              |
-| 🟩 Test basis                      | 🟩         | 🟩     | 🟩              |
-| 🟩 Requirement Traceability Matrix | 🟩         | 🟩     | 🟩              |
-| 🟩 Test Metrics                    | 🟩         | 🟩     | 🟩              |
-
-| General           |  |  |  |
-|----------------------------------|-----------------------------|--------------------------------|-------------------------------|
-| 🟩 Error, defect, failure       |          |      |               |
-| 🟩 Domain testing (S - R)       |          |      |               |
-| 🟩 Domain testing (S - R)       |          |      |               |
 
 
 ## TypeScript
