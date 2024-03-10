@@ -6,14 +6,14 @@
 
 | Test design                       | Software Development Models | Development/testing approaches | Project management methods |
 |---------------------------------- |-----------------------------|--------------------------------|-------------------------------|
-| 🟩 Equivalence Partitioning (D)  | 🟩 Waterfall model          | 🟩     | 🟩 Scrum              |
-| 🟩 Boundary Value Analysis (D)   | 🟩 V-model                  | 🟩     | 🟩 Kanban             |
-| 🟩 All Combinations (D)          | 🟩 Incremental Model        | 🟩     | 🟩 Lean               |
-| 🟩 Pairwise Testing (D)          | 🟩 Iterative Model          |      |               |
-| 🟩 Each Choice Testing (D)       | 🟩 Spiral model             |      |               |
-| 🟩 Base Choice Testing (D)       | 🟩 Agile model              |      |               |
+| 🟩 Equivalence Partitioning (D)  | 🟩 Waterfall model          | 🟩 TDD                          | 🟩 Scrum              |
+| 🟩 Boundary Value Analysis (D)   | 🟩 V-model                  | 🟩 BDD                          | 🟩 Kanban             |
+| 🟩 All Combinations (D)          | 🟩 Incremental Model        | 🟩 DDD                          | 🟩 Lean               |
+| 🟩 Pairwise Testing (D)          | 🟩 Iterative Model          | 🟩 MDD                          |               |
+| 🟩 Each Choice Testing (D)       | 🟩 Spiral model             |                     |               |
+| 🟩 Base Choice Testing (D)       | 🟩 Agile model              |                     |               |
 | 🟩 Decision Table Testing (D)    | 🟩 Chaos model              |      |               |
-| 🟩 Cause-Effect Graphing (D)     |                           |      |               |
+| 🟩 Cause-Effect Graphing (D)     | 🟩 RAD model                |      |               |
 | 🟩 State Transition Testing (D)  |          |      |               |
 | 🟩 Use case testing (D)          |          |     |               |
 | 🟩 Domain testing (D)            |          |      |               |
@@ -31,7 +31,7 @@
 | 🟩 Test case                       | 🟩 Youtrack      |
 | 🟩 Check list                      | 🟩 TestCaseLab   |
 | 🟩 Test case                       | 🟩 DevTools      | 
-| 🟩 Test policy                     | 
+| 🟩 Test policy                     | 🟩 Charles       |
 | 🟩 Test strategy                   | 
 | 🟩 Test plan                       | 
 | 🟩 Test basis                      | 
@@ -41,18 +41,20 @@
 | General                            |
 |------------------------------------|
 | 🟩 Error, defect, failure         | 
-| 🟩 Validation                     |         
+| 🟩 Validation/Verification        |         
 | 🟩 QA/QC/Testing                  |
 | 🟩 Software Quality               |
 | 🟩 Principles of Software Testing |
+| 🟩 SDLC / STLC                    |
+
 
 ## AQA
 ### Fundamental concepts JavaScript
 
 | Syntax               | Statements            | Functions             | Data structures     | Process & style      |
 |----------------------|-----------------------|-----------------------|---------------------|----------------------|
-| 🟩 value             | 🟩 if                 | 🟦 recursion          | 🟩 array            | 🟦 refactoring       |
-| 🟩 identifier        | 🟩 loops              | 🟦 function           | 🟦 instance         | 🟦 code review       |
+| 🟩 value             | 🟩 if                 | 🟩 recursion          | 🟩 array            | 🟦 refactoring       |
+| 🟩 identifier        | 🟩 loops              | 🟩 function           | 🟦 instance         | 🟦 code review       |
 | 🟩 variable          | 🟩 assignment         | 🟩 return             | 🟦 object           | 🟦 antipatterns      |
 | 🟩 constant          | 🟨 prototype          | 🟦 signature          | 🟦 collection       | 🟦 paradigm          |
 | 🟦 scalar            | 🟩 class              | 🟦 argument           | 🟦 hash table       | 🟦 algorithm         |
@@ -71,10 +73,10 @@
 | 🟨 generator         | 🟩 switch             | ⬜ compose            | ⬜️ Symbol           | 🟦 linter            |
 | 🟨 async function    | 🟨 new Error          | ⬜️ memoize            | 🟨 string parsing   | ⬜️ prettier          |
 | 🟨 call, bind, apply |                       | 🟦 factory            | 🟨 timers           | 🟦 unittest          |
-| 🟨 Array             |                       | 🟦 pool               | 🟨 null             | 🟩 git               |
-| 🟩 instanceof        |                       | 🟦 wrapper            | 🟨 RegExp           | 🟦 github            |
+| 🟨 Array             |                       | 🟦 pool               | 🟩 null             | 🟩 git               |
+| 🟩 instanceof        |                       | 🟦 wrapper            | 🟨 RegExp           | 🟩 github            |
 | 🟩 ...spread         |                       | 🟩 default parameters | 🟨 global           | 🟨 node.js           |
-| 🟩 ...rest           |                       |                       | 🟨 undefined        | 🟨 npm               |
+| 🟩 ...rest           |                       |                       | 🟩 undefined        | 🟨 npm               |
 | 🟩 typeof            |                       |                       |              |                      |
 
 
