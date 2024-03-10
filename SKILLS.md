@@ -38,15 +38,24 @@
 | 🟩 Requirement Traceability Matrix | 
 | 🟩 Test Metrics                    | 
 
-| General                            |
-|------------------------------------|
-| 🟩 Error, defect, failure         | 
-| 🟩 Validation/Verification        |         
-| 🟩 QA/QC/Testing                  |
-| 🟩 Software Quality               |
-| 🟩 Principles of Software Testing |
-| 🟩 SDLC / STLC                    |
+| General                            | Network         |
+|------------------------------------|-----------------|
+| 🟩 Error, defect, failure          | 
+| 🟩 Validation/Verification         |         
+| 🟩 QA/QC/Testing                   |
+| 🟩 Software Quality                |
+| 🟩 Principles of Software Testing  |
+| 🟩 SDLC / STLC                     |
 
+
+| Client-server architecture         | Rest api            |
+|------------------------------------|-----------------|
+| 🟩 Thick and Thin client           | 🟩 Methods
+| 🟩 2-tier architecture             | 🟩 Status codes         
+| 🟩 n-tier architecture             | 🟩 Rules
+| 🟩                                 | 🟩 
+| 🟩  |
+| 🟩                     |
 
 ## AQA
 ### Fundamental concepts JavaScript
